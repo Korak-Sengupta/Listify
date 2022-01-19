@@ -33,7 +33,7 @@ function shownotes() {
           <p class="card-text">
             ${element}
           </p>
-          <button onclick="deleteNote(this.id)" id="$(index)" class="btn btn-primary">
+          <button  id="${index}" onclick="deleteNote(this.id)" class="btn btn-primary">
            Delete Note
           </button>
         </div>
